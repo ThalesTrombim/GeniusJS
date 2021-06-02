@@ -145,15 +145,15 @@ body {
 	background: var(--clr-light-green);
 }
 
-.game__pad--tl.game__pad--active {
+.game__pad--tr.game__pad--active {
 	background: var(--clr-light-red);
 }
 
-.game__pad--tl.game__pad--active {
+.game__pad--bl.game__pad--active {
 	background: var(--clr-light-yellow);
 }
 
-.game__pad--tl.game__pad--active {
+.game__pad--br.game__pad--active {
 	background: var(--clr-light-blue);
 }
 
@@ -302,4 +302,10 @@ footer {
 	text-align: center;
 	margin-top: 5rem;
 	font-size: 1rem;
+}
+
+@media (max-width: 600px){
+	html {
+		font-size: 45%;
+	}
 }
