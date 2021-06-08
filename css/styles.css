@@ -69,7 +69,7 @@ html {
 }
 
 body {
-	background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+	background-image: url('/public/background.png');
 	font-family: "bungee", verdana, sans-serif;
 }
 
